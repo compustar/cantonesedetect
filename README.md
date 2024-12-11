@@ -1,3 +1,5 @@
+This project is a backport of  [CanCLID/cantonesedetect](https://github.com/CanCLID/cantonesedetect), adapted for Python 3.10.
+
 # CantoneseDetect 粵語特徵分類器
 
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=for-the-badge&color=)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
@@ -56,7 +58,7 @@ Python >= 3.10
 ### 安裝 Installation
 
 ```bash
-pip install cantonesedetect
+pip install git+https://github.com/compustar/cantonesedetect
 ```
 
 ## 用法 Usage
